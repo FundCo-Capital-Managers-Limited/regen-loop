@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ThreeHero from "@/components/ThreeHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import ProcessFlow from "@/components/ProcessFlow";
@@ -108,6 +109,33 @@ export default function Home() {
               <p className="text-sm text-text-secondary leading-relaxed">{p.text}</p>
             </div>
           ))}
+        </ScrollReveal>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 pb-16 sm:pb-24">
+        <ScrollReveal className="grid gap-10 lg:grid-cols-2 items-center rounded-3xl bg-navy text-white overflow-hidden">
+          <div className="relative h-72 lg:h-full min-h-[280px]">
+            <Image
+              src="/images/farmer-kaduna.jpg"
+              alt="A Nigerian farmer with freshly harvested produce"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-8 sm:p-10 lg:pr-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-3">
+              Where The Waste Comes From
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+              Every Harvest Leaves Organic Waste Behind
+            </h2>
+            <p className="text-white/75 leading-relaxed">
+              Agro-processors and farms across Nigeria generate organic
+              waste every day — most of it dumped, burned, or left to
+              decompose unmanaged. Regenloop turns that waste stream into a
+              site-specific energy asset.
+            </p>
+          </div>
         </ScrollReveal>
       </section>
 

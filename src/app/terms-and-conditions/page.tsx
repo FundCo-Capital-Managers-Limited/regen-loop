@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Terms and Conditions | Regenloop" };
+export const metadata: Metadata = {
+  title: "Terms and Conditions",
+  description:
+    "Read the Terms and Conditions governing your use of the Regenloop website, accessible from regenloop.ng.",
+};
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="text-text-secondary leading-relaxed mb-4">{children}</p>;

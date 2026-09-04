@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Partners | Regenloop" };
+export const metadata: Metadata = {
+  title: "Partners",
+  description:
+    "Regenloop's commercialization partnership with Electrify Microgrid Limited (EML) gives its power-generation systems a committed offtake buyer, de-risking and accelerating pipeline conversion to revenue.",
+};
 
 export default function Partners() {
   return (

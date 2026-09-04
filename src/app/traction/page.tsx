@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Traction & Pipeline | Regenloop" };
+export const metadata: Metadata = {
+  title: "Traction & Pipeline",
+  description:
+    "From a 5 m³ pilot in Epe to a commissioned 40 m³ industrial system, Regenloop is scaling a growing pipeline of biogas deployments across Nigeria's agricultural and industrial clusters.",
+};
 
 const TIMELINE = [
   {
@@ -37,7 +42,18 @@ export default function Traction() {
         subtitle="Regenloop has progressed beyond experimentation into real, revenue-generating industrial application — with a growing pipeline anchored by a committed offtake partnership."
       />
 
-      <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+      <section className="mx-auto max-w-5xl px-6 pt-16 sm:pt-20">
+        <ScrollReveal className="relative h-64 sm:h-80 rounded-3xl overflow-hidden mb-14">
+          <Image
+            src="/images/digester-tanks.jpg"
+            alt="Industrial storage tanks representative of digester infrastructure"
+            fill
+            className="object-cover"
+          />
+        </ScrollReveal>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pb-16 sm:pb-20">
         <ScrollReveal stagger={0.15} className="grid gap-6 sm:grid-cols-2 mb-14">
           {TIMELINE.map((t) => (
             <div key={t.title} className="rounded-2xl border border-border bg-white p-6 sm:p-8 shadow-sm">

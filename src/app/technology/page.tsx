@@ -4,7 +4,11 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ProcessFlow from "@/components/ProcessFlow";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Technology | Regenloop" };
+export const metadata: Metadata = {
+  title: "Technology",
+  description:
+    "Regenloop deploys distributed anaerobic digestion systems, digitally monitored with smart gas metering and real-time dashboards, in a five-step process from waste collection to digestate recovery.",
+};
 
 const PROCESS = [
   { number: "01", title: "Collect", text: "Organic waste is sourced directly from agricultural and industrial generators near the digester site." },
@@ -34,6 +38,8 @@ export default function Technology() {
     <>
       <PageHero
         breadcrumb="How It Works"
+        image="/images/storage-tanks.jpg"
+        imageAlt="Industrial digestion tanks under an evening sky"
         title="Distributed Anaerobic Digestion, Digitally Monitored"
         subtitle="Regenloop designs and deploys biogas systems close to organic waste sources and energy users — not a single centralised plant, but a distributed, replicable infrastructure model."
       />

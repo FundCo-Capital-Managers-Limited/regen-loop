@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Cookies Policy | Regenloop" };
+export const metadata: Metadata = {
+  title: "Cookies Policy",
+  description:
+    "Read Regenloop's Cookies Policy to understand what cookies we use on regenloop.ng and how that information is used.",
+};
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="text-text-secondary leading-relaxed mb-4">{children}</p>;

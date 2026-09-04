@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = { title: "Contact Us | Regenloop" };
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with Regenloop about your organic waste site, energy offtake, partnership, or investment enquiry. Based in Lagos, Nigeria.",
+};
 
 export default function Contact() {
   return (

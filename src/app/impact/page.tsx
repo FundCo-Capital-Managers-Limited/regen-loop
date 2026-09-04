@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Impact | Regenloop" };
+export const metadata: Metadata = {
+  title: "Impact",
+  description:
+    "How Regenloop's biogas systems divert organic waste from unmanaged disposal, cut diesel dependence and emissions, and create new economic value for Nigerian industry and agriculture.",
+};
 
 const ENVIRONMENT = [
   "Organic waste diverted from unmanaged disposal",
@@ -27,6 +32,22 @@ export default function Impact() {
         title="Environmental Impact and Economic Value, Together"
         subtitle="Regenloop aims to demonstrate that waste can become an economically valuable energy resource — not a cost to be managed away."
       />
+
+      <section className="mx-auto max-w-5xl px-6 pt-16 sm:pt-20">
+        <ScrollReveal className="relative h-64 sm:h-80 rounded-3xl overflow-hidden">
+          <Image
+            src="/images/rice-field.jpg"
+            alt="Rice field workers harvesting in Nigeria"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-dark/70 via-transparent to-transparent" />
+          <p className="absolute bottom-5 left-6 right-6 text-sm text-white/90 font-medium">
+            Agricultural communities generate the organic waste streams
+            Regenloop converts into energy.
+          </p>
+        </ScrollReveal>
+      </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20 grid gap-6 sm:grid-cols-2">
         <ScrollReveal className="rounded-2xl border border-border bg-white p-8 shadow-sm">

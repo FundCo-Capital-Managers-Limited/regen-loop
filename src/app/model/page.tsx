@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Business Model | Regenloop" };
+export const metadata: Metadata = {
+  title: "Business Model",
+  description:
+    "Regenloop's business model spans clean energy sales, waste management, biogas asset deployment and digital monitoring — with future value streams in digestate, carbon credits and additional energy applications.",
+};
 
 const STREAMS = [
   {
