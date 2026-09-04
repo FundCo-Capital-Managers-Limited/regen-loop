@@ -49,7 +49,8 @@ export default function Footer() {
             Contact Details
           </h3>
           <ul className="space-y-2.5 text-sm text-white/60">
-            <li>Lagos, Nigeria</li>
+            <li>Plot 1610, Adeola Hopewell Street,</li>
+            <li>Victoria Island, Lagos</li>
             <li className="pt-1">
               <a href="mailto:hello@regenloop.ng" className="hover:text-white transition-colors">
                 hello@regenloop.ng

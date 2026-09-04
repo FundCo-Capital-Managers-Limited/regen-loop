@@ -27,7 +27,8 @@ export default function TermsAndConditions() {
         <P>
           For the purposes of these Terms and Conditions, &ldquo;the
           Company&rdquo;, &ldquo;We&rdquo;, &ldquo;Us&rdquo; or
-          &ldquo;Our&rdquo; refers to Regenloop, Lagos, Nigeria.
+          &ldquo;Our&rdquo; refers to Regenloop, Plot 1610, Adeola Hopewell
+          Street, Victoria Island, Lagos.
           &ldquo;Service&rdquo; refers to the Website, accessible from
           regenloop.ng.
         </P>

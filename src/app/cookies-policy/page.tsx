@@ -35,7 +35,8 @@ export default function CookiesPolicy() {
         <P>
           <strong>Company</strong> (&ldquo;the Company&rdquo;,
           &ldquo;We&rdquo;, &ldquo;Us&rdquo; or &ldquo;Our&rdquo;) refers
-          to Regenloop, Lagos, Nigeria. <strong>Website</strong> refers to
+          to Regenloop, Plot 1610, Adeola Hopewell Street, Victoria Island,
+          Lagos. <strong>Website</strong> refers to
           Regenloop, accessible from regenloop.ng
         </P>
 

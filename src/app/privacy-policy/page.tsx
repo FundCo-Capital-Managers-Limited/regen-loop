@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
           <li><strong>Account</strong> means a unique account created for You to access our Service.</li>
           <li>
             <strong>Company</strong> (&ldquo;the Company&rdquo;, &ldquo;We&rdquo;, &ldquo;Us&rdquo; or &ldquo;Our&rdquo;) refers to
-            Regenloop, Lagos, Nigeria.
+            Regenloop, Plot 1610, Adeola Hopewell Street, Victoria Island, Lagos.
           </li>
           <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
           <li><strong>Service</strong> refers to the Website.</li>

@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Regenloop about your organic waste site, energy offtake, partnership, or investment enquiry. Based in Lagos, Nigeria.",
+    "Get in touch with Regenloop about your organic waste site, energy offtake, partnership, or investment enquiry. Based in Victoria Island, Lagos.",
 };
 
 export default function Contact() {
@@ -20,7 +20,9 @@ export default function Contact() {
         <div>
           <h2 className="text-lg font-semibold text-brand mb-2">Location</h2>
           <p className="text-text-secondary leading-relaxed mb-6">
-            Lagos, Nigeria
+            Plot 1610, Adeola Hopewell Street,
+            <br />
+            Victoria Island, Lagos
           </p>
 
           <h2 className="text-lg font-semibold text-brand mb-2">Email</h2>
