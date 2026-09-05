@@ -27,8 +27,8 @@ export default function Contact() {
 
           <h2 className="text-lg font-semibold text-brand mb-2">Email</h2>
           <p className="text-text-secondary">
-            <a href="mailto:hello@regenloop.ng" className="hover:text-brand">
-              hello@regenloop.ng
+            <a href="mailto:info@regenloop.ng" className="hover:text-brand">
+              info@regenloop.ng
             </a>
           </p>
         </div>

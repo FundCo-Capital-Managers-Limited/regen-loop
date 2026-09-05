@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "hello@regenloop.ng";
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "info@regenloop.ng";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();

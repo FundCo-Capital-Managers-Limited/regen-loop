@@ -52,8 +52,8 @@ export default function Footer() {
             <li>Plot 1610, Adeola Hopewell Street,</li>
             <li>Victoria Island, Lagos</li>
             <li className="pt-1">
-              <a href="mailto:hello@regenloop.ng" className="hover:text-white transition-colors">
-                hello@regenloop.ng
+              <a href="mailto:info@regenloop.ng" className="hover:text-white transition-colors">
+                info@regenloop.ng
               </a>
             </li>
           </ul>

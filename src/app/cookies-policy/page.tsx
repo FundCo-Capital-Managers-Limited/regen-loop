@@ -74,8 +74,8 @@ export default function CookiesPolicy() {
         <P>
           If you have any questions about this Cookies Policy, You can
           contact us by email at{" "}
-          <a href="mailto:hello@regenloop.ng" className="text-brand">
-            hello@regenloop.ng
+          <a href="mailto:info@regenloop.ng" className="text-brand">
+            info@regenloop.ng
           </a>
         </P>
       </section>

@@ -56,8 +56,15 @@ export default function Home() {
   return (
     <>
       <section className="relative overflow-hidden bg-navy text-white min-h-[85vh] flex items-center">
+        <Image
+          src="/images/biogas-plant-aerial.jpg"
+          alt=""
+          fill
+          priority
+          className="object-cover opacity-40"
+        />
         <ThreeHero />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-navy/10 via-navy/50 to-navy" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-navy/40 via-navy/60 to-navy" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-28">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-accent mb-5">
             Regenloop — Nigerian Climate-Tech

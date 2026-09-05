@@ -123,8 +123,8 @@ export default function TermsAndConditions() {
         <P>
           If you have any questions about these Terms and Conditions, You
           can contact us by email at{" "}
-          <a href="mailto:hello@regenloop.ng" className="text-brand">
-            hello@regenloop.ng
+          <a href="mailto:info@regenloop.ng" className="text-brand">
+            info@regenloop.ng
           </a>
         </P>
       </section>
