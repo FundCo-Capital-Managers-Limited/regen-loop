@@ -15,7 +15,9 @@ const GROUP_PARTNERS = [
   { name: "Electrify Microgrid (EML)", logo: "/images/partners/eml.svg" },
   { name: "Agronomie", logo: "/images/partners/agronomie.png" },
   { name: "Grosolar", logo: "/images/partners/grosolar.svg" },
-  { name: "Clean Energy Fund (CEF)", logo: null },
+  { name: "Clean Energy Fund (CEF)", logo: "/images/partners/cef.png" },
+  { name: "InfraCredit", logo: "/images/partners/infracredit.svg" },
+  { name: "DREEF", logo: "/images/partners/dreef.svg" },
 ];
 
 export default function Partners() {
